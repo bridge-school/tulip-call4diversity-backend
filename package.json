@@ -8,15 +8,14 @@
     "dev": "nodemon src/index.js",
     "test:watch": "jest --watch"
   },
-  "authors": 
-    [
-      "Robyn Dalgleish", 
-      "Cheyenne Arrowsmith",
-      "Rebecca Song",
-      "Tyn Soltys",
-      "Quinn Anderson",
-      "M.K. Reyes"
-    ],
+  "authors": [
+    "Robyn Dalgleish",
+    "Cheyenne Arrowsmith",
+    "Rebecca Song",
+    "Tyn Soltys",
+    "Quinn Anderson",
+    "M.K. Reyes"
+  ],
   "devDependencies": {
     "jest": "^22.4.4",
     "nodemon": "^1.17.5",
@@ -27,8 +26,6 @@
     "express": "^4.16.3",
     "firebase-admin": "^5.12.1",
     "morgan": "^1.9.0",
-    "react-redux": "^5.0.7",
-    "redux": "^4.0.0",
     "winston": "^3.0.0"
   },
   "nodemonConfig": {
