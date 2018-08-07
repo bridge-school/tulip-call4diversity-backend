@@ -19,7 +19,7 @@ const addNewConference = (req, res) => {
   let newConference = Object.assign({}, req.body);
   let conferences = db.collection('conferences');
   conferences.add(newConference).then((doc) => {
-    return res.send({documentID: doc.id});
+    return res.send({documentID: doc.id, status: '201'});
   })
     .catch((err) => {
       logger.error(err.message);
